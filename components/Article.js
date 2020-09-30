@@ -168,14 +168,10 @@ function articleMaker(data) {
 	return article;
 }
 
-//test
-console.log(articleMaker(data[1]));
-
 //loop data (step 4)
 const articles = document.querySelector('.articles')
 
 data.forEach(objectArticle => {
   const article = articleMaker(objectArticle)
-  console.log(article)
   articles.append(article)
 })
