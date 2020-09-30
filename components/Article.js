@@ -86,7 +86,22 @@ const data = [
 		thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
-	},
+  },
+  // Added own articles (Step 5, Part 2)
+  {
+    title: 'Michael Scott\'s Lorem Ipsum',
+    date: 'Aug 13th, 1998',
+    firstParagraph: `Here's the thing. When a company screws up, best thing to do is call a press conference. Alert the media and then you control the story. Wait for them to find out, and the story controls you. That's what happened to O.J.`,
+    secondParagraph: `Families grow, and at some point the daddy can't take a bath with the kids anymore. I'm upper management, and it'd be inappropriate for me to take a bath with Pam- as much as I might want to.`,
+    thirdParagraph: `Close your eyes. Picture a convict. What's he wearing? Nothing special - baseball cap on backward, baggy pants. He says something ordinary like, 'Yo, that's shizzle'. Okay, now slowly open your eyes again. Who are you picturing? A black man? Wrong. That was a white woman. Surprised? Well, shame on you.`,
+  },
+  {
+    title: 'Dwight Schrute\'s Lorem Ipsum',
+    date: 'Sep 21st, 1854',
+    firstParagraph: `I come from a long line of fighters, my maternal grandfather was the toughest guy I ever knew. World War II veteran. He killed twenty men and then spent the rest of the war in an Allied prison camp... My father battled blood pressure and obesity all his life... different kind of fight.`,
+    secondParagraph: `I come from a long line of fighters, my maternal grandfather was the toughest guy I ever knew. World War II veteran. He killed twenty men and then spent the rest of the war in an Allied prison camp... My father battled blood pressure and obesity all his life... different kind of fight.`,
+    thirdParagraph: `I come from a long line of fighters, my maternal grandfather was the toughest guy I ever knew. World War II veteran. He killed twenty men and then spent the rest of the war in an Allied prison camp... My father battled blood pressure and obesity all his life... different kind of fight.`,
+  },
 ];
 
 // Step 1: Write a component called 'articleMaker' to create an article.
